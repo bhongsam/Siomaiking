@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <div>
+          
+            <a href="#">
+                <img class="primary-icon" src="image/sklogo.png">
+            </a> 
+               
+        </div>
+
+        <div>
+       
+           <div>
+              <ul class="nav-list" id="navi-list">
+
+                    
+                    <li class="list-item">
+                        <a href="https://siomaiking.ph/skshop/00468116" class="item">ORDER NOW</a></li>
+
+              </ul> 
+                          
+         
+            </div>
+            
+
+        </div>
+
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+                 
+    </nav>
+
+    <section class="hero">
+      
+        <div>
+            
+            <img src="image/heroko.jpg" alt="siomai-hero">
+
+            
+        </div>
+             
+        <h1>PARTNER COMPANIE'S</h1>
+
+    </section>
+
+    <section class="company-section">
+
+          <div class="flexbox-container">
+              
+                    <div class="flexbox-item"><img src="image/main-logo.png" ></div>
+               
+                    <div class="flexbox-item"><img src="image/copper mask.png"> </div>
+                    
+                    <div class="flexbox-item"><img src="image/ninja-ph.png" >  </div>
+                
+                    <div class="flexbox-item"><img src="image/toktok.jpg"> </div>
+                             
+          </div>
+            
+
+    </section>
+                    
+
+    <section class="food-section">
+
+                   <h2>FOOD PARTNER'S</h2>
+
+        <div class="flexbox-container">
+           
+                
+
+                <div class="flexbox-item"><img src="image/boy bondat logo.png"></div>
+
+                <div class="flexbox-item"><img src="image/noodle-house.png"></div>
+
+                <div class="flexbox-item"><img src="image/potato-king.jpg"></div>
+
+                <div class="flexbox-item"><img src="image/mang-boks.png"></div>
+            
+            
+            
+
+        </div>
+    
+    </section>
+   
+    <h3>Pls.. Feel Free to Visit our Other shop's !!!</h3>
+
+    <div class="site-container">
+     
+        <a class="site-item" href="https://siomaiking.ph/skshop/00468116">https://siomaiking.ph/skshop/00468116</a>
+        <a class="site-item" href="https://ninjaph.com/cpshop/00468116">https://ninjaph.com/cpshop/00468116</a>
+        <a class="site-item" href="https://coppermask.ph/cpshop/00468116">https://coppermask.ph/cpshop/00468116</a>
+        <a class="site-item" href="https://toktok.ph/delivery/00468116">https://toktok.ph/delivery/00468116</a>
+
+    </div>
+
+   
+</body>
+
+<script>
+    const toggleButton = document.getElementById('toggle-button');
+    const navilist = document.getElementById('navi-list');
+
+    toggleButton.addEventListener('click', () => {
+        navilist.classList.toggle('active');
+    })
+</script>
+
+
+</html>
